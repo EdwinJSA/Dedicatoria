@@ -116,19 +116,15 @@ body{
     font-weight: 700;
 }
 
-@media screen and (max-width: 1000px){
+@media (max-width: 1100px){
     .container{
-        flex-direction: column;
+        flex-direction: column;     
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 100vh;
+        margin-top: 0;
     }
-    .textos{
-        margin-left: 1rem;
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 50px;
+    .container .textos{
+        margin-bottom: 5rem;
     }
-    .form{
-        margin-left: 1rem;
-        width: 90%;
-    }
-    
 }
